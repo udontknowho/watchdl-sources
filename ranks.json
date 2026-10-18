@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "ranks": [
+    { "key": "fqup", "name": "番茄更新", "kind": "fanqieUpdate", "pages": 5 },
+    { "key": "fanqie", "name": "番茄推荐", "kind": "fanqie" },
+    { "key": "qd:yuepiaolist", "name": "起点月票", "kind": "qidian", "board": "yuepiaolist", "pages": 50, "gendered": true },
+    { "key": "qd:hotsaleslist", "name": "起点畅销", "kind": "qidian", "board": "hotsaleslist", "pages": 50, "gendered": true }
+  ]
+}
