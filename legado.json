@@ -1732,5 +1732,333 @@
   },
   "searchUrl": "/modules/article/search.php?s={{key}}&searchtype=articlename",
   "weight": 0
+ },
+ {
+  "bookSourceComment": "20240630By_zhbyjm7783",
+  "bookSourceGroup": "自写0625,源仓库",
+  "bookSourceName": "天悦小说",
+  "bookSourceType": 0,
+  "bookSourceUrl": "https://www.xtyxsw.org/",
+  "bookUrlPattern": "",
+  "customOrder": 152,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "header": "{\n  'Cookie': \"{{cookie.getCookie(source.getKey())}}\"\n}",
+  "lastUpdateTime": 1719764069203,
+  "loginUrl": "",
+  "respondTime": 2717,
+  "ruleBookInfo": {
+   "kind": ".bread-crumbs@li.1@a@text&&.box_info@.top@span!1@textNodes",
+   "wordCount": ".box_info@.top@span.1@textNodes"
+  },
+  "ruleContent": {
+   "content": "#content@p@text##喜欢.*请大家收藏.*|.*请点击下一页.*",
+   "nextContentUrl": "text.下一页@href"
+  },
+  "ruleSearch": {
+   "author": "span@a@text",
+   "bookList": "#alistbox",
+   "bookUrl": "h2@a@href",
+   "checkKeyWord": "深空彼岸",
+   "coverUrl": "img@src",
+   "intro": ".intro@text",
+   "lastChapter": "li@a@text",
+   "name": "h2@a@text"
+  },
+  "ruleToc": {
+   "chapterList": ".link_14@dd@a",
+   "chapterName": "text",
+   "chapterUrl": "href"
+  },
+  "searchUrl": "{{cookie.removeCookie(source.getKey())}}/search.html,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+  "variableComment": "",
+  "weight": 0
+ },
+ {
+  "bookSourceComment": "",
+  "bookSourceGroup": "源仓库,📖 小说",
+  "bookSourceName": "奇怪小说",
+  "bookSourceType": 0,
+  "bookSourceUrl": "http://www.yetianlian.info",
+  "customOrder": 545,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "lastUpdateTime": 1702222099502,
+  "respondTime": 6078,
+  "ruleBookInfo": {
+   "author": "span.1@text",
+   "coverUrl": "img@src",
+   "intro": "class.intro@text",
+   "kind": "span.2@text",
+   "lastChapter": "span.last.1@text",
+   "name": "h2@text",
+   "wordCount": "span.4@text"
+  },
+  "ruleContent": {
+   "content": "div#content.showtxt@text",
+   "nextContentUrl": "text.下一章@href"
+  },
+  "ruleExplore": {},
+  "ruleSearch": {
+   "author": "class.author@text",
+   "bookList": "class.bookbox",
+   "bookUrl": "a@href",
+   "checkKeyWord": "我的",
+   "coverUrl": "img@src",
+   "kind": "class.cat@text",
+   "lastChapter": "class.update@text",
+   "name": "class.bookname@text"
+  },
+  "ruleToc": {
+   "chapterList": "dd",
+   "chapterName": "a@text",
+   "chapterUrl": "a@href"
+  },
+  "searchUrl": "http://www.yetianlian.info/s.php?ie=utf-8&q={{key}}",
+  "weight": 0
+ },
+ {
+  "bookSourceComment": "",
+  "bookSourceGroup": "源仓库,📖 小说",
+  "bookSourceName": "玄幻阁在",
+  "bookSourceType": 0,
+  "bookSourceUrl": "http://www.xuanyge.com/",
+  "bookUrlPattern": "",
+  "customOrder": 1253,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/sort1/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"武侠\",\"url\":\"/sort2/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"都市\",\"url\":\"/sort3/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"历史\",\"url\":\"/sort4/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"言情\",\"url\":\"/sort5/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"穿越\",\"url\":\"/sort6/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"科幻\",\"url\":\"/sort7/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"恐怖\",\"url\":\"/sort8/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"校园\",\"url\":\"/sort9/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"异界\",\"url\":\"/sort10/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"全本\",\"url\":\"/quanben/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}}]",
+  "lastUpdateTime": 1702222253769,
+  "loginUrl": "",
+  "respondTime": 28858,
+  "ruleBookInfo": {
+   "author": "[property$=author]@content",
+   "coverUrl": "[property$=image]@content",
+   "intro": "[property$=description]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+   "kind": "[property~=category|status|update_time]@content##\\s.*",
+   "lastChapter": "[property$=latest_chapter_name]@content##正文卷.|正文.|VIP卷.|默认卷.|卷_|VIP章节.|免费章节.|章节目录.|最新章节.|[\\(（【].*?[求更票谢乐发订合补加Kk].*?[】）\\)]",
+   "name": "[property$=book_name]@content",
+   "tocUrl": ""
+  },
+  "ruleContent": {
+   "content": "#content@html",
+   "imageStyle": "0",
+   "replaceRegex": "##随机推荐.*|.*精华书阁.*|为您提供.*好书签.|.*免费阅读.|.*最快更新.*|\\(本章未完.*\\)|\\<|\\>|"
+  },
+  "ruleExplore": {},
+  "ruleSearch": {
+   "author": "span.1@text",
+   "bookList": "#sitebox dl",
+   "bookUrl": "a.1@href",
+   "coverUrl": "img@src",
+   "intro": "dd.3@text",
+   "kind": "span.2:0@text",
+   "lastChapter": "a.2@text##正文卷.|正文.|VIP卷.|默认卷.|卷_|VIP章节.|免费章节.|章节目录.|最新章节.|[\\(（【].*?[求更票谢乐发订合补加Kk].*?[】）\\)]",
+   "name": "a.1@text",
+   "wordCount": "span.3@text"
+  },
+  "ruleToc": {
+   "chapterList": "#readerlist li a",
+   "chapterName": "text##正文卷.|正文.|VIP卷.|默认卷.|卷_|VIP章节.|免费章节.|章节目录.|最新章节.|[\\(（【].*?[求更票谢乐发订合补加Kk].*?[】）\\)]",
+   "chapterUrl": "href"
+  },
+  "searchUrl": "/modules/article/search.php?s={{key}}&searchtype=articlename",
+  "weight": 0
+ },
+ {
+  "bookSourceComment": "",
+  "bookSourceGroup": "源仓库,📖 小说",
+  "bookSourceName": "系统流小说网",
+  "bookSourceType": 0,
+  "bookSourceUrl": "https://xitongliu.cn/",
+  "customOrder": 1345,
+  "enabled": true,
+  "enabledCookieJar": false,
+  "enabledExplore": true,
+  "exploreUrl": "玄幻魔法::/xclass/xuanhuan/{{page}}/\n武侠修真::/xclass/wuxia/{{page}}/\n都市言情::/xclass/dushi/{{page}}/\n历史军事::/xclass/lishi/{{page}}/\n科幻小说::/xclass/kehuan/{{page}}/\n网游动漫::/xclass/youxi/{{page}}/\n女生频道::/xclass/nvsheng/{{page}}/\n其他类型::/xclass/qita/{{page}}/",
+  "header": "{\n\"User-Agent\":\n\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58\"\n\n\n}",
+  "lastUpdateTime": 1687708158300,
+  "loginUrl": "https://xitongliu.cn/login/",
+  "respondTime": 45612,
+  "ruleBookInfo": {
+   "author": "class.bookright@class.d_title@a@text",
+   "coverUrl": "id.bookimg@img@src",
+   "name": "class.bookright@class.d_title@h1@text"
+  },
+  "ruleContent": {
+   "content": "id.TextContent@html",
+   "replaceRegex": "##系统流小说(.*?)cn|如果您还没有登录.*?您还不是本站会员请点击.*?本站会员！|系统流 .*?cn\n|您还没有登录，请登录后在继续阅读本部小说!"
+  },
+  "ruleExplore": {
+   "bookList": "id.sitebox@tag.dl",
+   "bookUrl": "dt.0@a@href",
+   "coverUrl": "class.lazy@img@data-original",
+   "intro": "class.book_des@text",
+   "kind": "class.book_other@span.0@text",
+   "name": "dd.0@a@text"
+  },
+  "ruleSearch": {
+   "author": "dd.1@span.0@text",
+   "bookList": "id.nr",
+   "bookUrl": "dd.0@a@href",
+   "coverUrl": "dt@a@img@data-original",
+   "intro": "class.book_des@text",
+   "kind": "dd.1@span.1@text",
+   "lastChapter": "dd.3@a@text",
+   "name": "dd.0@a@text",
+   "wordCount": "dd.1@span.2@text"
+  },
+  "ruleToc": {
+   "chapterList": "id.chapterList@tag.li",
+   "chapterName": "a@text",
+   "chapterUrl": "a@href"
+  },
+  "searchUrl": "https://xitongliu.cn/search/?searchkey={{key}}",
+  "weight": 0
+ },
+ {
+  "bookSourceComment": "",
+  "bookSourceGroup": "🎉 精选",
+  "bookSourceName": "🎉 唐三中文",
+  "bookSourceType": 0,
+  "bookSourceUrl": "http://www.xtangsanshu.com",
+  "customOrder": 27,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "lastUpdateTime": 1696074722593,
+  "respondTime": 2752,
+  "ruleBookInfo": {
+   "author": ".small@span.0@text",
+   "coverUrl": ".cover@img@src",
+   "intro": ".intro@textNodes##(^|[。！？]+[”」）】]?)##$1<br>@js:result.replace(/作者.*《.*|无弹窗推荐.*/g,\"\")",
+   "kind": ".small@span.1:2:4@text##小说|.*：|\\s..:.*",
+   "lastChapter": ".last@a@text##正文卷.|正文.|VIP卷.|默认卷.|卷_|VIP章节.|免费章节.|章节目录.|最新章节.|[\\(（【].*?[求更票谢乐发订合补加架字修Kk].*?[】）\\)]",
+   "name": ".info@h2@text",
+   "wordCount": ".small@span.3@text##.*："
+  },
+  "ruleContent": {
+   "content": "id.content@html",
+   "replaceRegex": "##\\s*http.*//.*\\s*|\\s*请记住本书首.*\\s*"
+  },
+  "ruleExplore": {},
+  "ruleSearch": {
+   "author": ".author@text",
+   "bookList": ".bookbox",
+   "bookUrl": "a.0@href",
+   "coverUrl": "img@src",
+   "kind": ".cat@text##.*：|小说",
+   "lastChapter": ".update@a@text##正文卷.|正文.|VIP卷.|默认卷.|卷_|VIP章节.|免费章节.|章节目录.|最新章节.|[\\(（【].*?[求更票谢乐发订合补加架字修Kk].*?[】）\\)]",
+   "name": ".bookname@text"
+  },
+  "ruleToc": {
+   "chapterList": ".listmain@dd@a",
+   "chapterName": "text##正文卷.|正文.|VIP卷.|默认卷.|卷_|VIP章节.|免费章节.|章节目录.|最新章节.|[\\(（【].*?[求更票谢乐发订合补加架字修Kk].*?[】）\\)]",
+   "chapterUrl": "href"
+  },
+  "searchUrl": "/s.php?ie=utf-8&s=&q={{key}}",
+  "weight": 0
+ },
+ {
+  "bookSourceComment": "",
+  "bookSourceGroup": "🎉 精选 🎉,发现规则为空",
+  "bookSourceName": "🎉唐三中文网",
+  "bookSourceType": 0,
+  "bookSourceUrl": "http://www.tangsanshu.com/",
+  "bookUrlPattern": "",
+  "customOrder": 430,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "lastUpdateTime": 1646492894995,
+  "loginUrl": "",
+  "respondTime": 6572,
+  "ruleBookInfo": {
+   "author": "[property=og:novel:author]@content",
+   "coverUrl": "[property=og:image]@content",
+   "init": "",
+   "intro": "[property=og:description]@content",
+   "kind": "[property=og:novel:update_time]@content&&\n[property=og:novel:category]@content&&\n[property=og:novel:status]@content",
+   "lastChapter": "[property=og:novel:latest_chapter_name]@content##免费章节 |正文卷 |正文 |VIP章节 ",
+   "name": "[property=og:novel:book_name]@content##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|小说|笔趣阁"
+  },
+  "ruleContent": {
+   "content": "id.content@html##一秒记住.*无弹窗免费阅读！|http.*html|请记住本书首.*com"
+  },
+  "ruleExplore": {
+   "bookList": ""
+  },
+  "ruleSearch": {
+   "author": "class.author@text##作者：",
+   "bookList": "class.bookbox",
+   "bookUrl": "class.bookname@tag.a.0@href",
+   "coverUrl": "tag.img@src",
+   "intro": "tag.p.0@text",
+   "kind": "class.cat@text##分类：",
+   "lastChapter": "class.update@tag.a.0@text##免费章节 |正文卷 |正文 |VIP章节 |百度搜索.*",
+   "name": "class.bookname@tag.a.0@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|笔趣阁|小说"
+  },
+  "ruleToc": {
+   "chapterList": "class.listmain@tag.dl@tag.dd@tag.a",
+   "chapterName": "text",
+   "chapterUrl": "href"
+  },
+  "searchUrl": "http://www.tangsanshu.com/s.php?ie=utf-8&s=11634403173562452546&q={{key}}",
+  "weight": 0
+ },
+ {
+  "bookSourceComment": "",
+  "bookSourceGroup": "🎉 精选 🎉",
+  "bookSourceName": "🎉顶点小说⑲",
+  "bookSourceType": 0,
+  "bookSourceUrl": "http://www.dingdianxs.la/",
+  "bookUrlPattern": "http://www.dingdianxs.la/\\d+/\\d+/",
+  "customOrder": 557,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "exploreUrl": "玄幻小说::http://m.dingdianxs.la/xuanhuan/\n修真小说::http://m.dingdianxs.la/xiuzhen/\n都市小说::http://m.dingdianxs.la/dushi/\n历史小说::http://m.dingdianxs.la/lishi/\n网游小说::http://m.dingdianxs.la/wangyou/\n科幻小说::http://m.dingdianxs.la/kehuan/\n竞技小说::http://m.dingdianxs.la/jingji/\n言情小说::http://m.dingdianxs.la/yanqing/\n其他小说::http://m.dingdianxs.la/qita/\n全本小说::http://m.dingdianxs.la/quanben/",
+  "lastUpdateTime": 1624883830935,
+  "loginUrl": "",
+  "respondTime": 13915,
+  "ruleBookInfo": {
+   "author": "id.info@tag.p.0@text##作 者：",
+   "coverUrl": "id.fmimg@tag.img@src",
+   "intro": "id.intro@textNodes",
+   "kind": "id.info@tag.p.2@text##更新时间：",
+   "lastChapter": "id.info@tag.p.3@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+   "name": "id.info@tag.h1@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|笔趣阁"
+  },
+  "ruleContent": {
+   "content": "id.content@textNodes"
+  },
+  "ruleExplore": {
+   "author": "class.author@text",
+   "bookList": "class.bookbox",
+   "bookUrl": "h4@a@href@js:'http://www.dingdianxs.la'+result",
+   "coverUrl": "img@src",
+   "intro": "class.intro_line@text",
+   "lastChapter": "class.update@a@text",
+   "name": "h4@a@text"
+  },
+  "ruleSearch": {
+   "author": "class.s4@text",
+   "bookList": "class.novelslistss@tag.li",
+   "bookUrl": "class.s2@tag.a@href",
+   "coverUrl": "class.s2@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'http://www.dingdianxs.la/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+   "kind": "class.s1@text##.*\\[|\\]",
+   "lastChapter": "class.s3@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+   "name": "class.s2@tag.a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|笔趣阁"
+  },
+  "ruleToc": {
+   "chapterList": "id.list@tag.dl@dd",
+   "chapterName": "tag.a.0@text",
+   "chapterUrl": "tag.a.0@href"
+  },
+  "searchUrl": "http://www.dingdianxs.la/modules/article/search.php?searchkey={{key}}",
+  "weight": 0
  }
 ]
