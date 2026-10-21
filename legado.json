@@ -1572,5 +1572,165 @@
   },
   "searchUrl": "https://wap.jhssd.com/search.html?ie=utf-8&word={{key}}",
   "weight": 0
+ },
+ {
+  "bookSourceComment": "\nhttp://www.weilaitianwang.info/\nhttp://www.weilaitianwang.com",
+  "bookSourceGroup": "小说,有发现",
+  "bookSourceName": "未来天王",
+  "bookSourceType": 0,
+  "bookSourceUrl": "http://www.weilaitianwang.info",
+  "customButton": false,
+  "customOrder": 18,
+  "enabled": true,
+  "enabledCookieJar": false,
+  "enabledExplore": true,
+  "eventListener": false,
+  "exploreScreen": "",
+  "exploreUrl": "===========最近更新===========\n玄幻奇幻::/xuanhuanxiaoshuo/1_{{page}}.html\n修真仙侠::/xiuzhenxiaoshuo/1_{{page}}.html\n都市青春::/dushixiaoshuo/1_{{page}}.html\n历史穿越::/chuanyuexiaoshuo/1_{{page}}.html\n网游竞技::/wangyouxiaoshuo/1_{{page}}.html\n科幻灵异::/kehuanxiaoshuo/1_{{page}}.html\n其它小说::/qitaxiaoshuo/1_{{page}}.html\n阅读轨迹::nofollow\" href=\"/gj.html1_{{page}}.html\n完本小说::/wanben/1_11_{{page}}.html",
+  "lastUpdateTime": 1784382813111,
+  "respondTime": 2961,
+  "ruleBookInfo": {
+   "author": "##:author\"[^\"]+\"([^\"]*)##$1###",
+   "coverUrl": "##og:image\"[^\"]+\"([^\"]*)##$1###",
+   "intro": "#intro@text",
+   "kind": "##:category\"[^\"]+\"([^\"]*)##$1###",
+   "lastChapter": "##_chapter_name\"[^\"]+\"([^\"]*)##$1###",
+   "name": "##:book_name\"[^\"]+\"([^\"]*)##$1###"
+  },
+  "ruleContent": {
+   "content": "#content@textNodes",
+   "nextContentUrl": "text.下一页@href",
+   "replaceRegex": "##\\s*.*(((http|https|ftp):\\/\\/)?([\\w\\d][\\/_\\-\\.]*)+(\\.)[\\w\\d\\/]{2,4}([\\w\\d?\\/%][+=&_\\.~\\-]*)*).*\\s*|\\s*.*网站.*\\s*|\\s*.*([谢感多]谢.*的([千打]赏|支持)[!！,，。!]*)+.*\\s*|\\s*.*[谢感多]谢.*?书友.*?支持.*\\s*|\\s*.*第\\d+章.*\\s*|\\s*.*作者.*\\s*"
+  },
+  "ruleExplore": {
+   "author": ".s4@text",
+   "bookList": ".l li[0:-1]",
+   "bookUrl": "##<a\\s*href=\"([^\"]+)\"##$1###",
+   "coverUrl": "##<img\\s*src=\"([^\"]+)\"##$1###",
+   "kind": ".s1@text##\\[(.*)\\]##$1",
+   "lastChapter": ".s3@text",
+   "name": ".s2@text",
+   "wordCount": ".s5@text"
+  },
+  "ruleSearch": {
+   "author": ".s4@a@text",
+   "bookList": ".novelslist2 li[1:-1]",
+   "bookUrl": "##<a\\s*href=\"([^\"]+)\"##$1###",
+   "coverUrl": "##<img\\s*src=\"([^\"]+)\"##$1###",
+   "kind": "[class=s6 wid6]@text",
+   "lastChapter": ".s3@a@text",
+   "name": ".s2@a@text"
+  },
+  "ruleToc": {
+   "chapterList": "#list dd[12:-1]",
+   "chapterName": "a@text",
+   "chapterUrl": "a@href"
+  },
+  "searchUrl": "/search.html?name={{key}}",
+  "weight": 2
+ },
+ {
+  "bookSourceComment": "",
+  "bookSourceGroup": "小说,有发现",
+  "bookSourceName": "无双小说",
+  "bookSourceType": 0,
+  "bookSourceUrl": "http://www.buxia.la/",
+  "customButton": false,
+  "customOrder": 20,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "eventListener": false,
+  "exploreUrl": "[{\"title\":\"玄幻魔法\",\"url\":\"mulu/1/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠修真\",\"url\":\"mulu/2/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市言情\",\"url\":\"mulu/3/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史军事\",\"url\":\"mulu/4/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游动漫\",\"url\":\"mulu/5/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻星际\",\"url\":\"mulu/6/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"恐怖灵异\",\"url\":\"mulu/7/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他类型\",\"url\":\"mulu/8/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+  "lastUpdateTime": 1784020345201,
+  "respondTime": 1957,
+  "ruleBookInfo": {
+   "author": "[property=\"og:novel:author\"]@content",
+   "coverUrl": "[property=\"og:image\"]@content",
+   "intro": "class.bookintromore@text",
+   "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content",
+   "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+   "name": "[property=\"og:novel:book_name\"]@content"
+  },
+  "ruleContent": {
+   "content": "id.txt@html",
+   "nextContentUrl": "id.pb_next@tag.a@href",
+   "replaceRegex": "##第.*章.*|\\(第.*页\\)|阅读.*新章节.*|（本章未完.*击下一页继续阅读）"
+  },
+  "ruleExplore": {
+   "author": "tag.a.2@text",
+   "bookList": "class.bookbox",
+   "bookUrl": "tag.a.1@href",
+   "coverUrl": "tag.img@data-original",
+   "intro": "class.update@text##简介.",
+   "kind": "class.author.1@text##分类.",
+   "lastChapter": "tag.a.3@text",
+   "name": "tag.a.1@text"
+  },
+  "ruleSearch": {
+   "author": "tag.a.2@text",
+   "bookList": "class.bookbox",
+   "bookUrl": "tag.a.1@href",
+   "coverUrl": "tag.img@data-original",
+   "intro": "class.update@text##简介.",
+   "kind": "class.author.1@text##更新时间.",
+   "lastChapter": "tag.a.3@text",
+   "name": "tag.a.1@text"
+  },
+  "ruleToc": {
+   "chapterList": "id.showmore01@tag.dd@tag.a",
+   "chapterName": "text",
+   "chapterUrl": "href"
+  },
+  "searchUrl": "modules/article/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+  "weight": 0
+ },
+ {
+  "bookSourceComment": "",
+  "bookSourceGroup": "小说,有发现",
+  "bookSourceName": "玄幻阁吧",
+  "bookSourceType": 0,
+  "bookSourceUrl": "http://www.xuanhuange.info",
+  "customButton": false,
+  "customOrder": 27,
+  "enabled": true,
+  "enabledCookieJar": true,
+  "enabledExplore": true,
+  "eventListener": false,
+  "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/sort1/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"武侠\",\"url\":\"/sort2/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"都市\",\"url\":\"/sort3/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"历史\",\"url\":\"/sort4/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"言情\",\"url\":\"/sort5/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"穿越\",\"url\":\"/sort6/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"科幻\",\"url\":\"/sort7/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"恐怖\",\"url\":\"/sort8/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"校园\",\"url\":\"/sort9/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"异界\",\"url\":\"/sort10/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"全本\",\"url\":\"/quanben/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},{\"title\":\"\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}}]",
+  "lastUpdateTime": 1787213194731,
+  "respondTime": 2927,
+  "ruleBookInfo": {
+   "author": "[property$=author]@content",
+   "coverUrl": "[property$=image]@content",
+   "intro": "[property$=description]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+   "kind": "[property~=category|status|update_time]@content##\\s.*",
+   "lastChapter": "[property$=latest_chapter_name]@content##正文卷.|正文.|VIP卷.|默认卷.|卷_|VIP章节.|免费章节.|章节目录.|最新章节.|[\\(（【].*?[求更票谢乐发订合补加架字修Kk].*?[】）\\)]",
+   "name": "[property$=book_name]@content"
+  },
+  "ruleContent": {
+   "content": "#content@textNodes",
+   "imageStyle": "0",
+   "replaceRegex": "##随机推荐.*|.*精华书阁.*|为您提供.*好书签.|.*免费阅读.|.*最快更新.*|\\(本章未完.*\\)"
+  },
+  "ruleExplore": {},
+  "ruleSearch": {
+   "author": "span.1@text",
+   "bookList": "#sitebox dl",
+   "bookUrl": "a.1@href",
+   "coverUrl": "img@src",
+   "intro": "dd.3@text",
+   "kind": "span.2:0@text",
+   "lastChapter": "a.2@text##正文卷.|正文.|VIP卷.|默认卷.|卷_|VIP章节.|免费章节.|章节目录.|最新章节.|[\\(（【].*?[求更票谢乐发订合补加架字修Kk].*?[】）\\)]",
+   "name": "a.1@text",
+   "wordCount": "span.3@text"
+  },
+  "ruleToc": {
+   "chapterList": "#readerlist li a",
+   "chapterName": "text##正文卷.|正文.|VIP卷.|默认卷.|卷_|VIP章节.|免费章节.|章节目录.|最新章节.|[\\(（【].*?[求更票谢乐发订合补加架字修Kk].*?[】）\\)]",
+   "chapterUrl": "href"
+  },
+  "searchUrl": "/modules/article/search.php?s={{key}}&searchtype=articlename",
+  "weight": 0
  }
 ]
