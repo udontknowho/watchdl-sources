@@ -2460,5 +2460,91 @@
   },
   "searchUrl": "/modules/article/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
   "weight": 0
+ },
+ {
+  "bookSourceComment": "",
+  "bookSourceGroup": "自写1027",
+  "bookSourceName": "书海阁",
+  "bookSourceType": 0,
+  "bookSourceUrl": "https://book.washai.net",
+  "bookUrlPattern": "/book/\\d+\\.html",
+  "customOrder": 1401,
+  "enabled": true,
+  "enabledCookieJar": false,
+  "enabledExplore": false,
+  "lastUpdateTime": 0,
+  "loginUrl": "",
+  "respondTime": 0,
+  "ruleBookInfo": {
+   "author": "id.bookAuthor@text",
+   "coverUrl": "id.bookCoverImg@src",
+   "intro": "id.bookDesc@text",
+   "name": "id.bookName@text",
+   "tocUrl": "id.allIndexLink@href"
+  },
+  "ruleContent": {
+   "content": "class.readChapterAppendBody@tag.p@text"
+  },
+  "ruleExplore": {},
+  "ruleSearch": {
+   "author": "class.classBookAuthor@tag.a@text",
+   "bookList": "class.classBookCard",
+   "bookUrl": "class.classBookTitle@a@href",
+   "coverUrl": "class.classBookCoverLink@img@src",
+   "intro": "class.classBookDesc@text",
+   "lastChapter": "class.classBookChapter@a@text",
+   "name": "class.classBookTitle@a@text"
+  },
+  "ruleToc": {
+   "chapterList": "id.bookIndexList@tag.li@a",
+   "chapterName": "text##\\s*\\[免费\\]",
+   "chapterUrl": "href",
+   "nextTocUrl": "text.下一页@href"
+  },
+  "searchUrl": "https://book.washai.net/book/bookclass.html?k={{key}}",
+  "weight": 0
+ },
+ {
+  "bookSourceComment": "正文有 SEO 关键词注入（每段末尾插『武动乾坤』），已用正则剥除；目录分 500 章一页",
+  "bookSourceGroup": "自写1027",
+  "bookSourceName": "UU看书",
+  "bookSourceType": 0,
+  "bookSourceUrl": "https://www.uukan.org",
+  "bookUrlPattern": "/book/[A-Za-z0-9]+\\.html",
+  "customOrder": 1402,
+  "enabled": true,
+  "enabledCookieJar": false,
+  "enabledExplore": false,
+  "lastUpdateTime": 0,
+  "loginUrl": "",
+  "respondTime": 0,
+  "ruleBookInfo": {
+   "author": "class.booktag@tag.a.0@text",
+   "coverUrl": "class.bookcover@img@src",
+   "intro": "class.bookintro@text",
+   "lastChapter": "class.bookchapter@text",
+   "name": "class.booktitle@text",
+   "tocUrl": "text.查看全部章节@href"
+  },
+  "ruleContent": {
+   "content": "id.content@tag.p@text##武动乾坤"
+  },
+  "ruleExplore": {},
+  "ruleSearch": {
+   "author": "class.author.0@text##^作者：",
+   "bookList": "class.p10",
+   "bookUrl": "class.bookname@tag.a@href",
+   "intro": "class.update@text##^简介：",
+   "lastChapter": "class.cat@tag.a@text",
+   "name": "class.bookname@tag.a@text"
+  },
+  "ruleToc": {
+   "chapterList": "id.allchapter@tag.dd@a",
+   "chapterName": "text",
+   "chapterUrl": "href",
+   "nextTocUrl": "id.linkIndex@tag.option@value"
+  },
+  "searchUrl": "https://www.uukan.org/search/{{key}}.html",
+  "weight": 0
  }
 ]
