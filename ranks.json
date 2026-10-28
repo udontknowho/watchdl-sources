@@ -1,9 +1,284 @@
 {
-  "version": 1,
+  "version": 2,
   "ranks": [
-    { "key": "fqup", "name": "番茄更新", "kind": "fanqieUpdate", "pages": 5 },
-    { "key": "fanqie", "name": "番茄推荐", "kind": "fanqie" },
-    { "key": "qd:yuepiaolist", "name": "起点月票", "kind": "qidian", "board": "yuepiaolist", "pages": 50, "gendered": true },
-    { "key": "qd:hotsaleslist", "name": "起点畅销", "kind": "qidian", "board": "hotsaleslist", "pages": 50, "gendered": true }
+    {
+      "key": "fqr:m:2_1141",
+      "name": "西方奇幻 · 阅读",
+      "kind": "fanqieRank",
+      "category": 1141,
+      "rankType": 2,
+      "gendered": true,
+      "gender": "male"
+    },
+    {
+      "key": "fqr:m:2_1140",
+      "name": "东方仙侠 · 阅读",
+      "kind": "fanqieRank",
+      "category": 1140,
+      "rankType": 2,
+      "gendered": true,
+      "gender": "male"
+    },
+    {
+      "key": "fqr:m:2_8",
+      "name": "科幻末世 · 阅读",
+      "kind": "fanqieRank",
+      "category": 8,
+      "rankType": 2,
+      "gendered": true,
+      "gender": "male"
+    },
+    {
+      "key": "fqr:m:2_261",
+      "name": "都市日常 · 阅读",
+      "kind": "fanqieRank",
+      "category": 261,
+      "rankType": 2,
+      "gendered": true,
+      "gender": "male"
+    },
+    {
+      "key": "fqr:m:2_124",
+      "name": "都市修真 · 阅读",
+      "kind": "fanqieRank",
+      "category": 124,
+      "rankType": 2,
+      "gendered": true,
+      "gender": "male"
+    },
+    {
+      "key": "fqr:m:2_1014",
+      "name": "都市高武 · 阅读",
+      "kind": "fanqieRank",
+      "category": 1014,
+      "rankType": 2,
+      "gendered": true,
+      "gender": "male"
+    },
+    {
+      "key": "fqr:m:2_273",
+      "name": "历史古代 · 阅读",
+      "kind": "fanqieRank",
+      "category": 273,
+      "rankType": 2,
+      "gendered": true,
+      "gender": "male"
+    },
+    {
+      "key": "fqr:m:2_27",
+      "name": "战神赘婿 · 阅读",
+      "kind": "fanqieRank",
+      "category": 27,
+      "rankType": 2,
+      "gendered": true,
+      "gender": "male"
+    },
+    {
+      "key": "fqr:m:2_263",
+      "name": "都市种田 · 阅读",
+      "kind": "fanqieRank",
+      "category": 263,
+      "rankType": 2,
+      "gendered": true,
+      "gender": "male"
+    },
+    {
+      "key": "fqr:m:2_258",
+      "name": "传统玄幻 · 阅读",
+      "kind": "fanqieRank",
+      "category": 258,
+      "rankType": 2,
+      "gendered": true,
+      "gender": "male"
+    },
+    {
+      "key": "fqr:m:2_272",
+      "name": "历史脑洞 · 阅读",
+      "kind": "fanqieRank",
+      "category": 272,
+      "rankType": 2,
+      "gendered": true,
+      "gender": "male"
+    },
+    {
+      "key": "fqr:m:2_539",
+      "name": "悬疑脑洞 · 阅读",
+      "kind": "fanqieRank",
+      "category": 539,
+      "rankType": 2,
+      "gendered": true,
+      "gender": "male"
+    },
+    {
+      "key": "fqr:m:2_262",
+      "name": "都市脑洞 · 阅读",
+      "kind": "fanqieRank",
+      "category": 262,
+      "rankType": 2,
+      "gendered": true,
+      "gender": "male"
+    },
+    {
+      "key": "fqr:m:2_257",
+      "name": "玄幻脑洞 · 阅读",
+      "kind": "fanqieRank",
+      "category": 257,
+      "rankType": 2,
+      "gendered": true,
+      "gender": "male"
+    },
+    {
+      "key": "fqr:m:2_751",
+      "name": "悬疑灵异 · 阅读",
+      "kind": "fanqieRank",
+      "category": 751,
+      "rankType": 2,
+      "gendered": true,
+      "gender": "male"
+    },
+    {
+      "key": "fqr:m:2_504",
+      "name": "抗战谍战 · 阅读",
+      "kind": "fanqieRank",
+      "category": 504,
+      "rankType": 2,
+      "gendered": true,
+      "gender": "male"
+    },
+    {
+      "key": "fqr:m:2_746",
+      "name": "游戏体育 · 阅读",
+      "kind": "fanqieRank",
+      "category": 746,
+      "rankType": 2,
+      "gendered": true,
+      "gender": "male"
+    },
+    {
+      "key": "fqr:m:2_718",
+      "name": "动漫衍生 · 阅读",
+      "kind": "fanqieRank",
+      "category": 718,
+      "rankType": 2,
+      "gendered": true,
+      "gender": "male"
+    },
+    {
+      "key": "fqr:m:2_1016",
+      "name": "男频衍生 · 阅读",
+      "kind": "fanqieRank",
+      "category": 1016,
+      "rankType": 2,
+      "gendered": true,
+      "gender": "male"
+    },
+    {
+      "key": "fqr:f:2_1139",
+      "name": "古风世情 · 阅读",
+      "kind": "fanqieRank",
+      "category": 1139,
+      "rankType": 2,
+      "gendered": true,
+      "gender": "female"
+    },
+    {
+      "key": "fqr:f:2_248",
+      "name": "玄幻言情 · 阅读",
+      "kind": "fanqieRank",
+      "category": 248,
+      "rankType": 2,
+      "gendered": true,
+      "gender": "female"
+    },
+    {
+      "key": "fqr:f:2_23",
+      "name": "种田 · 阅读",
+      "kind": "fanqieRank",
+      "category": 23,
+      "rankType": 2,
+      "gendered": true,
+      "gender": "female"
+    },
+    {
+      "key": "fqr:f:2_79",
+      "name": "年代 · 阅读",
+      "kind": "fanqieRank",
+      "category": 79,
+      "rankType": 2,
+      "gendered": true,
+      "gender": "female"
+    },
+    {
+      "key": "fqr:f:2_267",
+      "name": "现言脑洞 · 阅读",
+      "kind": "fanqieRank",
+      "category": 267,
+      "rankType": 2,
+      "gendered": true,
+      "gender": "female"
+    },
+    {
+      "key": "fqr:f:2_246",
+      "name": "宫斗宅斗 · 阅读",
+      "kind": "fanqieRank",
+      "category": 246,
+      "rankType": 2,
+      "gendered": true,
+      "gender": "female"
+    },
+    {
+      "key": "fqr:f:2_1015",
+      "name": "女频衍生 · 阅读",
+      "kind": "fanqieRank",
+      "category": 1015,
+      "rankType": 2,
+      "gendered": true,
+      "gender": "female"
+    },
+    {
+      "key": "fanqie",
+      "name": "番茄推荐",
+      "kind": "fanqie"
+    },
+    {
+      "key": "qd:yuepiaolist",
+      "name": "起点月票榜",
+      "kind": "qidian",
+      "board": "yuepiaolist",
+      "pages": 10,
+      "gendered": true
+    },
+    {
+      "key": "qd:hotsaleslist",
+      "name": "起点畅销榜",
+      "kind": "qidian",
+      "board": "hotsaleslist",
+      "pages": 10,
+      "gendered": true
+    },
+    {
+      "key": "qd:newbooklist",
+      "name": "起点新书榜",
+      "kind": "qidian",
+      "board": "newbooklist",
+      "pages": 10,
+      "gendered": true
+    },
+    {
+      "key": "qd:collectlist",
+      "name": "起点收藏榜",
+      "kind": "qidian",
+      "board": "collectlist",
+      "pages": 10,
+      "gendered": true
+    },
+    {
+      "key": "qd:updatelist",
+      "name": "起点更新榜",
+      "kind": "qidian",
+      "board": "updatelist",
+      "pages": 10,
+      "gendered": true
+    }
   ]
 }
