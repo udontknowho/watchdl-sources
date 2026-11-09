@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 4,
   "ranks": [
     {
       "key": "fqr:m:2_1141",
@@ -236,49 +236,166 @@
       "gender": "female"
     },
     {
-      "key": "fanqie",
-      "name": "番茄推荐",
-      "kind": "fanqie"
-    },
-    {
-      "key": "qd:yuepiaolist",
+      "key": "qd:yuepiao",
       "name": "起点月票榜",
       "kind": "qidian",
-      "board": "yuepiaolist",
-      "pages": 10,
-      "gendered": true
+      "board": "yuepiao",
+      "pages": 0,
+      "gendered": true,
+      "gender": "male"
     },
     {
-      "key": "qd:hotsaleslist",
+      "key": "qd:female:yuepiao",
+      "name": "起点女频月票榜",
+      "kind": "qidian",
+      "board": "yuepiao",
+      "pages": 0,
+      "gendered": true,
+      "gender": "female"
+    },
+    {
+      "key": "qd:hotsales",
       "name": "起点畅销榜",
       "kind": "qidian",
-      "board": "hotsaleslist",
-      "pages": 10,
-      "gendered": true
+      "board": "hotsales",
+      "pages": 0,
+      "gendered": true,
+      "gender": "male"
     },
     {
-      "key": "qd:newbooklist",
-      "name": "起点新书榜",
+      "key": "qd:female:hotsales",
+      "name": "起点女频畅销榜",
       "kind": "qidian",
-      "board": "newbooklist",
-      "pages": 10,
-      "gendered": true
+      "board": "hotsales",
+      "pages": 0,
+      "gendered": true,
+      "gender": "female"
     },
     {
-      "key": "qd:collectlist",
-      "name": "起点收藏榜",
+      "key": "qd:readindex",
+      "name": "起点阅读榜",
       "kind": "qidian",
-      "board": "collectlist",
-      "pages": 10,
-      "gendered": true
+      "board": "readindex",
+      "pages": 0,
+      "gendered": true,
+      "gender": "male"
     },
     {
-      "key": "qd:updatelist",
+      "key": "qd:female:readindex",
+      "name": "起点女频阅读榜",
+      "kind": "qidian",
+      "board": "readindex",
+      "pages": 0,
+      "gendered": true,
+      "gender": "female"
+    },
+    {
+      "key": "qd:newfans",
+      "name": "起点书友榜",
+      "kind": "qidian",
+      "board": "newfans",
+      "pages": 0,
+      "gendered": true,
+      "gender": "male"
+    },
+    {
+      "key": "qd:female:newfans",
+      "name": "起点女频书友榜",
+      "kind": "qidian",
+      "board": "newfans",
+      "pages": 0,
+      "gendered": true,
+      "gender": "female"
+    },
+    {
+      "key": "qd:rec",
+      "name": "起点推荐榜",
+      "kind": "qidian",
+      "board": "rec",
+      "pages": 0,
+      "gendered": true,
+      "gender": "male"
+    },
+    {
+      "key": "qd:female:rec",
+      "name": "起点女频推荐榜",
+      "kind": "qidian",
+      "board": "rec",
+      "pages": 0,
+      "gendered": true,
+      "gender": "female"
+    },
+    {
+      "key": "qd:update",
       "name": "起点更新榜",
       "kind": "qidian",
-      "board": "updatelist",
-      "pages": 10,
-      "gendered": true
+      "board": "update",
+      "pages": 0,
+      "gendered": true,
+      "gender": "male"
+    },
+    {
+      "key": "qd:female:update",
+      "name": "起点女频更新榜",
+      "kind": "qidian",
+      "board": "update",
+      "pages": 0,
+      "gendered": true,
+      "gender": "female"
+    },
+    {
+      "key": "qd:sign",
+      "name": "起点签约榜",
+      "kind": "qidian",
+      "board": "sign",
+      "pages": 0,
+      "gendered": true,
+      "gender": "male"
+    },
+    {
+      "key": "qd:female:sign",
+      "name": "起点女频签约榜",
+      "kind": "qidian",
+      "board": "sign",
+      "pages": 0,
+      "gendered": true,
+      "gender": "female"
+    },
+    {
+      "key": "qd:newbook",
+      "name": "起点新书榜",
+      "kind": "qidian",
+      "board": "newbook",
+      "pages": 0,
+      "gendered": true,
+      "gender": "male"
+    },
+    {
+      "key": "qd:female:newbook",
+      "name": "起点女频新书榜",
+      "kind": "qidian",
+      "board": "newbook",
+      "pages": 0,
+      "gendered": true,
+      "gender": "female"
+    },
+    {
+      "key": "qd:newauthor",
+      "name": "起点新人榜",
+      "kind": "qidian",
+      "board": "newauthor",
+      "pages": 0,
+      "gendered": true,
+      "gender": "male"
+    },
+    {
+      "key": "qd:female:newauthor",
+      "name": "起点女频新人榜",
+      "kind": "qidian",
+      "board": "newauthor",
+      "pages": 0,
+      "gendered": true,
+      "gender": "female"
     }
   ]
 }
