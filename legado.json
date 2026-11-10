@@ -725,5 +725,51 @@
     },
     "searchUrl": "https://b.faloo.com/l/0/1.html?t=1&k={{key}},{\n  \"charset\": \"gbk\"\n}",
     "weight": 0
+  },
+  {
+    "bookSourceName": "搬山人小说网",
+    "bookSourceUrl": "https://www.banshanren.com",
+    "bookSourceType": 0,
+    "bookSourceGroup": "成人",
+    "bookSourceComment": "阅读3.25。搜索、详情、目录、正文均基于真实页面结构验证。封面使用data-src。正文存在“ 0”噪声，已用replaceRegex清理。未在阅读App内实测完整导入与渲染。",
+    "enabled": true,
+    "enabledExplore": true,
+    "enabledCookieJar": false,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\"\n}",
+    "searchUrl": "https://www.banshanren.com/search/index?keyword={{key}}",
+    "exploreUrl": "[{\"title\":\"全部小说\",\"url\":\"/all/0-0-0-0-0-0-1-1/\"},{\"title\":\"排行榜\",\"url\":\"/rank\"}]",
+    "ruleSearch": {
+      "bookList": "li.novel_li",
+      "name": "a.title@text",
+      "author": "div.info_box@text",
+      "coverUrl": "a.cover_box img@data-src",
+      "bookUrl": "a.title@href",
+      "intro": "text"
+    },
+    "ruleBookInfo": {
+      "name": "h1@text",
+      "author": "script[type=\"application/ld+json\"]@js:\ntry {\n  var data = JSON.parse(result);\n  data.author && data.author.name ? data.author.name : '';\n} catch(e) { '' }",
+      "coverUrl": "img.encrypted-image@data-src||img[data-src*=cover]@data-src",
+      "intro": ".novel_summary_box@text||text",
+      "lastChapter": ".catalog_top_box .hl@text||text.最新章节",
+      "canReName": true
+    },
+    "ruleToc": {
+      "chapterList": ".chapter_list a[href*=/novel/]",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "ruleContent": {
+      "content": ".chapter_content_box@textNodes||.chapter_box@textNodes",
+      "replaceRegex": "##\\s*0\\s*|游客|加入书架|催更|举报|显示更多|阅读全文|Copyright.*?2025"
+    },
+    "ruleExplore": {
+      "bookList": "li.novel_li",
+      "name": "a.title@text",
+      "author": "div.info_box@text",
+      "coverUrl": "a.cover_box img@data-src",
+      "bookUrl": "a.title@href"
+    },
+    "lastUpdateTime": "1793773406188"
   }
 ]
